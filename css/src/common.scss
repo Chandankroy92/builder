@@ -1,0 +1,29 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color:$dark-fort-color;
+}
+.btn-solid{
+	background-color: $primary-color;
+	color: $light-font-color;
+	border-radius:2px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:1em 3em;
+
+	&:hover{
+	color:$light-font-color; 
+	}
+}
+
+.btn-outline{
+	color:$dark-fort-color;
+	border-radius:2px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:1em 3em;
+	border:2px solid $primary-color;
+
+	&:hover{
+		color: $dark-fort-color;
+	}
+}

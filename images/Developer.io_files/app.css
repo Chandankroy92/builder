@@ -1,0 +1,31 @@
+#landing {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -1.4em; }
+  #landing nav {
+    background-color: #4BD9DD;
+    color: #C0C4C7;
+    border-radius: 0px; }
+  #landing a.action {
+    color: #FFF; }
+
+#slider img {
+  width: 98em;
+  height: 42em; }
+
+#login {
+  text-align: center; }
+  #login .price-option {
+    border: 2px solid #C0C4C7;
+    border-radius: 10px 10px 0 0;
+    height: 20em;
+    position: relative; }
+    #login .price-option h3 {
+      background-color: #A18BCC;
+      color: #FFF;
+      margin: 0;
+      padding: 0.6em;
+      text-transform: uppercase;
+      border-radius: 10px 10px 0 0; }
+
+/*# sourceMappingURL=app.css.map */

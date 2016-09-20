@@ -1,0 +1,83 @@
+#landing {
+	background-color: $primary-color;
+	color: #FFF;
+	text-align: center;
+  text-align: center;
+  padding-top: 2em;	
+
+  nav{
+    margin-right: 7em;
+  }
+
+  nav a{
+   color: #fff;
+   text-decoration : none;
+   margin-left: 1.5em;
+
+
+   &.active{
+     font-weight : bold;
+     border-bottom :2px solid #fff;
+     padding-bottom : 0.5em;
+   }	
+ }
+
+ h1{
+  font-size:4em;
+  margin-top :1em;
+}
+
+p{
+  font-size:1.3em;
+  margin: 0 6em;
+}
+
+a.action{
+	background-color: $secondary-color;
+	color: #fff;
+	border-radius: 2px;
+  width: 10em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.6em;
+  margin: 1em;
+  
+
+}
+
+
+.image-container{
+ position: relative;
+
+ img {
+  padding-left: 23em;
+  padding-right: 23em;
+  margin-top: 2em;
+}
+
+.caption{
+  position: absolute;
+  bottom: 2em;
+  left: 17em;
+  text-align: left;
+}
+
+.likes{
+  position: absolute;
+  bottom: 2em;
+  right: 28em;
+  font-size: 1em;
+}
+
+.edit{
+  position: absolute;
+  top: 1em;
+  right: 14em;
+  font-size: 2em;
+}
+}
+}
+
+
+
+

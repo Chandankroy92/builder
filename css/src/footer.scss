@@ -1,0 +1,19 @@
+#footer {
+	border-bottom :100px solid lighten($primary-color, 15%);
+	 text-align :center;
+	 padding :3em 0;
+
+	 h3{
+	  background-color: $primary-color;
+	  border-radius: 0.2em;
+	  color:$light-font-color
+
+
+	 }
+	 a{
+	 	display :block;
+	 	color :$dark-fort-color;
+	 	margin: 0.3em;
+	 	font-weight: bold;
+	 }
+}
