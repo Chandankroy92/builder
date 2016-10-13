@@ -56,25 +56,57 @@ body {
   #landing .image-container {
     position: relative; }
     #landing .image-container img {
-      padding-left: 23em;
-      padding-right: 23em;
-      margin-top: 2em; }
+      width: 50%;
+      left: 0px;
+      right: 0px;
+      margin: 0 auto; }
     #landing .image-container .caption {
       position: absolute;
-      bottom: 2em;
-      left: 17em;
-      text-align: left; }
+      bottom: 30px;
+      left: 290px;
+      text-align: left;
+      display: block; }
     #landing .image-container .likes {
       position: absolute;
-      bottom: 2em;
-      right: 28em;
-      font-size: 1em; }
+      bottom: 30px;
+      right: 400px;
+      font-size: 20px;
+      display: block; }
     #landing .image-container .edit {
       position: absolute;
-      top: 1em;
-      right: 14em;
-      font-size: 2em; }
+      top: 25px;
+      right: 418px;
+      font-size: 30px;
+      display: block; }
 
+@media screen and (max-width: 480px) {
+  #landing .image-container img {
+    width: 85%; }
+  #landing .title {
+    font-size: 15px;
+    top: -20px;
+    left: -252px;
+    margin: 0px;
+    position: absolute; }
+  #landing .date {
+    font-size: 15px;
+    /* top: 0px; */
+    left: -253px;
+    /* right: 11px; */
+    margin: 0px;
+    position: absolute; }
+  #landing .image-container .likes {
+    position: absolute;
+    bottom: 13px;
+    right: 50px;
+    font-size: 15px;
+    display: block; }
+  #landing .image-container .edit {
+    position: absolute;
+    top: 6px;
+    right: 50px;
+    font-size: 20px;
+    display: block; } }
 #intro {
   text-align: center;
   padding: 3em 0; }
@@ -94,6 +126,9 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center; }
 
+@media screen and (max-width: 480px) {
+  #features {
+    padding: 25px 0 400px; } }
 #take-look {
   background-color: #A18BCC;
   text-align: center;
