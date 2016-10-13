@@ -1,9 +1,9 @@
 #landing {
-	background-color: $primary-color;
-	color: #FFF;
-	text-align: center;
+  background-color: $primary-color;
+  color: #FFF;
   text-align: center;
-  padding-top: 2em;	
+  text-align: center;
+  padding-top: 2em; 
 
   nav{
     margin-right: 7em;
@@ -19,7 +19,7 @@
      font-weight : bold;
      border-bottom :2px solid #fff;
      padding-bottom : 0.5em;
-   }	
+   }  
  }
 
  h1{
@@ -33,9 +33,9 @@ p{
 }
 
 a.action{
-	background-color: $secondary-color;
-	color: #fff;
-	border-radius: 2px;
+  background-color: $secondary-color;
+  color: #fff;
+  border-radius: 2px;
   width: 10em;
   text-transform: uppercase;
   font-weight: bold;
@@ -50,34 +50,74 @@ a.action{
  position: relative;
 
  img {
-  padding-left: 23em;
-  padding-right: 23em;
-  margin-top: 2em;
+  width: 50%;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
 }
 
 .caption{
   position: absolute;
-  bottom: 2em;
-  left: 17em;
+  bottom: 30px;
+  left: 290px;
   text-align: left;
+  display: block;
 }
 
 .likes{
   position: absolute;
-  bottom: 2em;
-  right: 28em;
-  font-size: 1em;
+  bottom: 30px;
+  right: 400px;
+  font-size: 20px;
+  display: block;
 }
 
 .edit{
   position: absolute;
-  top: 1em;
-  right: 14em;
-  font-size: 2em;
+  top: 25px;
+  right: 418px;
+  font-size: 30px;
+  display: block;
 }
 }
 }
 
+@media screen and (max-width: 480px){
+  #landing {
+
+    .image-container img {
+      width: 85%;
+    }
+    .title{
+      font-size: 15px;
+    top: -20px;
+    left: -252px;
+    margin: 0px;
+    position: absolute;
+    }
+    .date{
+      font-size: 15px;
+      left: -253px;
+      margin: 0px;
+      position: absolute;
+    }
+
+    .image-container .likes {
+      position: absolute;
+      bottom: 13px;
+      right: 50px;
+      font-size: 15px;
+      display: block;
+    }
+    .image-container .edit {
+      position: absolute;
+      top: 6px;
+      right: 50px;
+      font-size: 20px;
+      display: block;
+    }
+  }
+}
 
 
 
